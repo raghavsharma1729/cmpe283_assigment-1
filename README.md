@@ -1,4 +1,3 @@
-# cmpe283_assigment-1
 # How to discover VMX features using GCP VM
 
 1. Setup gcloud account 
