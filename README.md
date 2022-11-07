@@ -59,3 +59,11 @@
 16. To find about the MSR and controls that you want query 
     <br>https://www.intel.com/content/dam/develop/public/us/en/documents/325384-sdm-vol-3abcd.pdf
 
+17. For this project i have queried following 6 MSRs
+     - IA32_VMX_PINBASED_CTLS 
+     - IA32_VMX_PROCBASED_CTLS 
+     - IA32_VMX_PROCBASED_CTLS2 
+     - IA32_VMX_EXIT_CTLS 
+     - IA32_VMX_ENTRY_CTLS 
+     - IA32_VMX_PROCBASED_CTLS3  
+
