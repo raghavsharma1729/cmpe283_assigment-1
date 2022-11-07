@@ -67,3 +67,6 @@
      - IA32_VMX_ENTRY_CTLS 
      - IA32_VMX_PROCBASED_CTLS3  
 
+18. Some observations about the output
+    - In primary procbased controls in my Vm the ability to set “Activate Secondary Controls” was true and for “Activate Tertiary Controls” was false.
+    - In tertiary procbased control the ability to set for all 4 controls were false.
