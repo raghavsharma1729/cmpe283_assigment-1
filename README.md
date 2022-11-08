@@ -60,12 +60,12 @@
     <br>https://www.intel.com/content/dam/develop/public/us/en/documents/325384-sdm-vol-3abcd.pdf
 
 17. For this project i have queried following 6 MSRs
-     - IA32_VMX_PINBASED_CTLS 
-     - IA32_VMX_PROCBASED_CTLS 
-     - IA32_VMX_PROCBASED_CTLS2 
-     - IA32_VMX_EXIT_CTLS 
-     - IA32_VMX_ENTRY_CTLS 
-     - IA32_VMX_PROCBASED_CTLS3  
+     - IA32_VMX_PINBASED_CTLS (5 controls)
+     - IA32_VMX_PROCBASED_CTLS (22 controls)
+     - IA32_VMX_PROCBASED_CTLS2 (27 controls)
+     - IA32_VMX_EXIT_CTLS (16 controls)
+     - IA32_VMX_ENTRY_CTLS (13 controls)
+     - IA32_VMX_PROCBASED_CTLS3  (4 controls)
 
 18. Some observations about the output
     - In primary procbased controls in my Vm the ability to set “Activate Secondary Controls” was true and for “Activate Tertiary Controls” was false.
